@@ -7,6 +7,10 @@ class FavoritesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: const Color.fromARGB(255, 161, 158, 179));
+    return Container(
+      color: const Color.fromARGB(255, 161, 158, 179),
+      width: 120,
+      height: 120,
+    );
   }
 }

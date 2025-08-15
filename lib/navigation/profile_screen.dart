@@ -7,6 +7,6 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: const Color.fromARGB(255, 175, 140, 76));
+    return Container(color: const Color.fromARGB(255, 218, 151, 28));
   }
 }
