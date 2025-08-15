@@ -7,6 +7,6 @@ class ScanPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: const Color.fromARGB(255, 175, 76, 117));
+    return Container(color: const Color.fromARGB(255, 247, 1, 104));
   }
 }
