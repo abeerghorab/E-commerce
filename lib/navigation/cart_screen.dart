@@ -7,6 +7,6 @@ class CartPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: const Color.fromARGB(255, 91, 76, 175));
+    return Container(color: const Color.fromARGB(255, 145, 15, 15));
   }
 }
