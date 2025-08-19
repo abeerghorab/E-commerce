@@ -6,6 +6,8 @@ import 'package:task10depi/navigation/Home_screen.dart';
 import 'package:task10depi/Login-screen.dart';
 import 'package:task10depi/navigation/cart_screen.dart';
 import 'package:task10depi/navigation/navigation_bar.dart';
+import 'package:task10depi/navigation/product_details_page.dart';
+import 'package:task10depi/navigation/product_model.dart';
 import 'package:task10depi/navigation/profile_screen.dart';
 import 'package:task10depi/navigation/scan_screen.dart';
 
@@ -27,6 +29,8 @@ class MyApp extends StatelessWidget {
         ProfilePage.routeName: (context) => ProfilePage(),
         ScanPage.routeName: (context) => ScanPage(),
         FavoritesPage.routeName: (context) => FavoritesPage(),
+
+        ProductOverviewPage.routeName: (context) => ProductOverviewPage(),
       },
       home: AnimatedSplashScreen(
         //pageTransitionType: PageTransitionType.topToBottom,
@@ -38,7 +42,7 @@ class MyApp extends StatelessWidget {
           backgroundImage: AssetImage('assets/IMG-20250808-WA0023.jpg'),
         ),
 
-        nextScreen: LoginPage(),
+        nextScreen: HomePage(),
       ),
     );
   }
