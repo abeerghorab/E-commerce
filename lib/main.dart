@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
           backgroundImage: AssetImage('assets/IMG-20250808-WA0023.jpg'),
         ),
 
-        nextScreen: HomePage(),
+        nextScreen: LoginPage(),
       ),
     );
   }

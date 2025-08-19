@@ -496,7 +496,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ],
                 ),
-                const SizedBox(height: 15),
+                const SizedBox(height: 25),
                 Container(
                   width: double.infinity,
                   height: 100,
@@ -508,7 +508,7 @@ class HomePage extends StatelessWidget {
                     child: Image.asset("assets/freed.png", height: 70),
                   ),
                 ),
-                const SizedBox(height: 25),
+                const SizedBox(height: 35),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
@@ -518,7 +518,7 @@ class HomePage extends StatelessWidget {
                     categoryChip("Recommended", false),
                   ],
                 ),
-                const SizedBox(height: 25),
+                const SizedBox(height: 35),
 
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
@@ -563,12 +563,12 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 20),
+                const SizedBox(height: 35),
                 Text(
                   "Newest Products",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
-                const SizedBox(height: 10),
+                const SizedBox(height: 35),
 
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
